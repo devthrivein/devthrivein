@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thrive</title>
+    <title>ThriveIn</title>
     <link href="dist/output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -95,7 +95,7 @@
             :class="{'translate-x-0 ease-in-opacity-100' :open===true, '-translate-x-full ease-out opacity-0' : open===false}"
           ></div>
           <div
-            class="absolute inset-0 z-10 h-screen p-3 text-gray-400 duration-500 transform bg-blue-100 w-80 lg:hidden lg:transform-none lg:relative"
+            class="absolute inset-0 z-10 h-screen p-3 text-gray-400 duration-500 transform bg-blue-100 dark:bg-gray-800 w-80 lg:hidden lg:transform-none lg:relative"
             :class="{'translate-x-0 ease-in-opacity-100' :open===true, '-translate-x-full ease-out opacity-0' : open===false}"
           >
             <div class="flex justify-between lg:">
@@ -177,7 +177,7 @@
     <!-- Header End -->
 
     <!-- Hero Section start -->
-    <section class="">
+    <section class="dark:bg-gray-800">
       <div
         class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between"
       >
@@ -185,7 +185,8 @@
           class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
         >
           <h1 class="text-5xl font-bold leadi sm:text-6xl">
-            Ac mattis <span class="">senectus</span>erat pharetra
+            Ac mattis <span class="dark:text-violet-400">senectus</span>erat
+            pharetra
           </h1>
           <p class="mt-6 mb-8 text-lg sm:mb-12">
             Dictum aliquam porta in condimentum ac integer
