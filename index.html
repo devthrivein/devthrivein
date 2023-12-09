@@ -95,7 +95,7 @@
             :class="{'translate-x-0 ease-in-opacity-100' :open===true, '-translate-x-full ease-out opacity-0' : open===false}"
           ></div>
           <div
-            class="absolute inset-0 z-10 h-screen p-3 text-gray-400 duration-500 transform bg-blue-100 dark:bg-gray-800 w-80 lg:hidden lg:transform-none lg:relative"
+            class="absolute inset-0 z-10 h-screen p-3 text-gray-400 duration-500 transform bg-blue-100 w-80 lg:hidden lg:transform-none lg:relative"
             :class="{'translate-x-0 ease-in-opacity-100' :open===true, '-translate-x-full ease-out opacity-0' : open===false}"
           >
             <div class="flex justify-between lg:">
@@ -177,7 +177,7 @@
     <!-- Header End -->
 
     <!-- Hero Section start -->
-    <section class="dark:bg-gray-800">
+    <section class="">
       <div
         class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between"
       >
@@ -185,8 +185,7 @@
           class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
         >
           <h1 class="text-5xl font-bold leadi sm:text-6xl">
-            Ac mattis <span class="dark:text-violet-400">senectus</span>erat
-            pharetra
+            Ac mattis <span class="">senectus</span>erat pharetra
           </h1>
           <p class="mt-6 mb-8 text-lg sm:mb-12">
             Dictum aliquam porta in condimentum ac integer
@@ -261,7 +260,7 @@
                 Lorem ipsum dolor sit amet, consectetur domino act
               </li>
               <li class="flex items-center mb-4 text-base text-gray-600">
-                <span class="mr-3 text-blue-500 dark:text-blue-400">
+                <span class="mr-3 text-blue-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -454,7 +453,7 @@
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="w-4 h-4 text-blue-500 dark:text-blue-400 bi bi-code-slash"
+                    class="w-4 h-4 text-blue-500 bi bi-code-slash"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -517,23 +516,19 @@
               </div>
               <div class="w-px h-full bg-blue-300"></div>
             </div>
-            <div
-              class="relative flex-1 bg-white rounded shadow dark:bg-gray-900"
-            >
+            <div class="relative flex-1 bg-white rounded shadow">
               <div
                 class="absolute inline-block w-4 overflow-hidden -translate-y-1/2 top-7 -left-4"
               >
                 <div
-                  class="h-10 origin-top-right transform -rotate-45 bg-white dark:bg-gray-900 drop-shadow-lg"
+                  class="h-10 origin-top-right transform -rotate-45 bg-white drop-shadow-lg"
                 ></div>
               </div>
               <div class="relative z-20 p-6">
-                <p
-                  class="mb-2 text-xl font-bold text-gray-600 dark:text-gray-400"
-                >
+                <p class="mb-2 text-xl font-bold text-gray-600">
                   Launch Project
                 </p>
-                <p class="text-gray-700 dark:text-gray-500">
+                <p class="text-gray-700">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   veniam libero facilis minus reprehenderit.
                 </p>
@@ -547,7 +542,7 @@
 
     <!-- Donation Section Start -->
     <section
-      class="flex items-center py-16 font-poppins dark:bg-gray-900 bg-no-repeat sm:bg-cover md:bg-cover"
+      class="flex items-center py-16 font-poppins bg-no-repeat sm:bg-cover md:bg-cover"
       style="background-image: url(dist/img/donation.png)"
     >
       >
@@ -607,7 +602,7 @@
                   <div class="py-3">
                     <a
                       href="#"
-                      class="px-3 py-2 text-blue-700 transition-all transform border border-blue-500 hover:bg-blue-600 dark:border-blue-400 dark:hover:bg-blue-500 dark:hover:text-gray-100 dark:hover:border-blue-500 dark:text-blue-400 hover:text-gray-100"
+                      class="px-3 py-2 text-blue-700 transition-all transform border border-blue-500 hover:bg-blue-600 hover:text-gray-100"
                     >
                       Donasi
                     </a>
@@ -624,47 +619,36 @@
     <!-- Donation Section End -->
 
     <!-- Blog Section Start-->
-    <section
-      class="flex items-center py-16 bg-slate-200 font-poppins dark:bg-gray-900"
-    >
+    <section class="flex items-center py-16 bg-slate-200 font-poppins">
       <div
         class="justify-center flex-1 max-w-4xl px-4 py-4 mx-auto text-left lg:py-10"
       >
         <div class="mb-10 text-center">
           <span
-            class="block mb-4 text-xs font-semibold leading-4 tracking-widest text-center text-purple-500 uppercase dark:text-gray-400"
+            class="block mb-4 text-xs font-semibold leading-4 tracking-widest text-center text-purple-500 uppercase"
           >
             Artikel
           </span>
-          <h1 class="text-3xl font-bold capitalize dark:text-white">
-            Artikel Bulan Ini
-          </h1>
+          <h1 class="text-3xl font-bold capitalize">Artikel Bulan Ini</h1>
         </div>
         <div
-          class="grid grid-cols-1 mb-6 md:grid-cols-[70%,1fr] border-gray-200 border-b dark:border-gray-700 pb-6 gap-4"
+          class="grid grid-cols-1 mb-6 md:grid-cols-[70%,1fr] border-gray-200 border-b pb-6 gap-4"
         >
           <div>
-            <a
-              href="#"
-              class="text-xs font-medium text-indigo-600 dark:text-blue-400"
-            >
+            <a href="#" class="text-xs font-medium text-indigo-600">
               Pasar Global
             </a>
-            <h2
-              class="mt-1 mb-3 text-xl font-semibold text-gray-600 dark:text-gray-400"
-            >
+            <h2 class="mt-1 mb-3 text-xl font-semibold text-gray-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </h2>
-            <p class="mb-3 text-sm text-gray-500 dark:text-gray-400">
+            <p class="mb-3 text-sm text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Ut enim ad minim veniam
             </p>
             <div class="flex items-center">
-              <span class="text-xs text-gray-500 dark:text-gray-400"
-                >Nov, 2023</span
-              >
+              <span class="text-xs text-gray-500">Nov, 2023</span>
             </div>
           </div>
           <div>
@@ -676,30 +660,21 @@
           </div>
         </div>
         <div
-          class="grid grid-cols-1 mb-6 md:grid-cols-[70%,1fr] border-gray-200 dark:border-gray-700 border-b pb-6 gap-4"
+          class="grid grid-cols-1 mb-6 md:grid-cols-[70%,1fr] border-gray-200 border-b pb-6 gap-4"
         >
           <div>
-            <a
-              href="#"
-              class="text-xs font-medium text-indigo-600 dark:text-blue-400"
-            >
-              UMKM
-            </a>
-            <h2
-              class="mt-1 mb-3 text-xl font-semibold text-gray-600 dark:text-gray-400"
-            >
+            <a href="#" class="text-xs font-medium text-indigo-600"> UMKM </a>
+            <h2 class="mt-1 mb-3 text-xl font-semibold text-gray-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </h2>
-            <p class="mb-3 text-sm text-gray-500 dark:text-gray-400">
+            <p class="mb-3 text-sm text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Ut enim ad minim veniam
             </p>
             <div class="flex items-center">
-              <span class="text-xs text-gray-500 dark:text-gray-400"
-                >Dec, 2023</span
-              >
+              <span class="text-xs text-gray-500">Dec, 2023</span>
             </div>
           </div>
           <div>
@@ -711,30 +686,21 @@
           </div>
         </div>
         <div
-          class="grid grid-cols-1 mb-6 dark:border-gray-700 md:grid-cols-[70%,1fr] border-gray-200 border-b pb-6 gap-4"
+          class="grid grid-cols-1 mb-6 md:grid-cols-[70%,1fr] border-gray-200 border-b pb-6 gap-4"
         >
           <div>
-            <a
-              href="#"
-              class="text-xs font-medium text-indigo-600 dark:text-blue-400"
-            >
-              Design
-            </a>
-            <h2
-              class="mt-1 mb-3 text-xl font-semibold text-gray-600 dark:text-gray-400"
-            >
+            <a href="#" class="text-xs font-medium text-indigo-600"> Design </a>
+            <h2 class="mt-1 mb-3 text-xl font-semibold text-gray-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </h2>
-            <p class="mb-3 text-sm text-gray-500 dark:text-gray-400">
+            <p class="mb-3 text-sm text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Ut enim ad minim veniam
             </p>
             <div class="flex items-center">
-              <span class="text-xs text-gray-500 dark:text-gray-400"
-                >Nov,2023</span
-              >
+              <span class="text-xs text-gray-500">Nov,2023</span>
             </div>
           </div>
           <div>
@@ -834,7 +800,7 @@
                   <li class="mb-4">
                     <a
                       href="#"
-                      class="inline-block text-base font-normal text-gray-400 dark:text-gray-400"
+                      class="inline-block text-base font-normal text-gray-400"
                       >Features</a
                     >
                   </li>
@@ -877,14 +843,14 @@
                   <a
                     href="#"
                     type="button"
-                    class="m-1 leading-normal text-gray-300 uppercase transition duration-150 ease-in-out border-2 border-gray-400 rounded-full dark:border-gray-400 dark:hover:bg-gray-800 hover:border-blue-600 hover:bg-blue-800 w-9 h-9"
+                    class="m-1 leading-normal text-gray-300 uppercase transition duration-150 ease-in-out border-2 border-gray-400 rounded-full hover:border-blue-600 hover:bg-blue-800 w-9 h-9"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
                       fill="currentColor"
-                      class="w-4 h-full mx-auto text-gray-300 dark:text-gray-400 bi bi-facebook"
+                      class="w-4 h-full mx-auto text-gray-300 bi bi-facebook"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -895,14 +861,14 @@
                   <a
                     href="#"
                     type="button"
-                    class="m-1 leading-normal text-gray-300 uppercase transition duration-150 ease-in-out border-2 border-gray-400 rounded-full dark:border-gray-400 dark:text-gray-400 dark:hover:bg-gray-800 hover:border-blue-600 hover:bg-blue-600 w-9 h-9"
+                    class="m-1 leading-normal text-gray-300 uppercase transition duration-150 ease-in-out border-2 border-gray-400 rounded-full hover:border-blue-600 hover:bg-blue-600 w-9 h-9"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
                       fill="currentColor"
-                      class="w-4 h-full mx-auto text-gray-300 dark:text-gray-400 bi bi-twitter"
+                      class="w-4 h-full mx-auto text-gray-300 bi bi-twitter"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -913,14 +879,14 @@
                   <a
                     href="#"
                     type="button"
-                    class="m-1 leading-normal text-gray-300 uppercase transition duration-150 ease-in-out border-2 border-gray-400 rounded-full dark:border-gray-400 dark:text-gray-400 dark:hover:bg-gray-800 hover:border-blue-600 text-text-gray-50 hover:bg-blue-600 w-9 h-9"
+                    class="m-1 leading-normal text-gray-300 uppercase transition duration-150 ease-in-out border-2 border-gray-400 rounded-full hover:border-blue-600 text-text-gray-50 hover:bg-blue-600 w-9 h-9"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
                       fill="currentColor"
-                      class="w-4 h-full mx-auto text-gray-100 dark:text-gray-400 bi bi-google"
+                      class="w-4 h-full mx-auto text-gray-100 bi bi-google"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -931,14 +897,14 @@
                   <a
                     href="#"
                     type="button"
-                    class="m-1 leading-normal text-gray-400 uppercase transition duration-150 ease-in-out border-2 border-gray-400 rounded-full dark:border-gray-400 dark:text-gray-400 dark:hover:bg-gray-800 hover:border-blue-600 hover:bg-blue-600 w-9 h-9"
+                    class="m-1 leading-normal text-gray-400 uppercase transition duration-150 ease-in-out border-2 border-gray-400 rounded-full hover:border-blue-600 hover:bg-blue-600 w-9 h-9"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
                       fill="currentColor"
-                      class="w-4 h-full mx-auto text-gray-300 dark:text-gray-400 bi bi-linkedin"
+                      class="w-4 h-full mx-auto text-gray-300 bi bi-linkedin"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -949,7 +915,7 @@
                 </div>
               </div>
             </div>
-            <div class="pt-4 text-center text-gray-300 dark:text-gray-400">
+            <div class="pt-4 text-center text-gray-300">
               <span>© Copyright 2023 . ThriveIn All Rights Reserved</span>
             </div>
           </div>
