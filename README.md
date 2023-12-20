@@ -3,7 +3,6 @@
   <p>HTML, Tailwind CSS</p>
 </div>
 
-<br>
 
 <div align="center">
   <a href="#installation"><strong>Installation</strong></a>
