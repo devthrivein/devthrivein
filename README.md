@@ -1,14 +1,3 @@
-<!-- Add a catchy title for your card section -->
-## 🚀 Technologies Used
-
-<!-- Use HTML to create a card-like structure within the Markdown -->
-
-<div align="center">
-  <img src="https://placekitten.com/400/300" alt="Project Image" width="400" height="300">
-</div>
-
-<br>
-
 <div align="center">
   <h3>🛠️ Built With</h3>
   <p>HTML, Tailwind CSS</p>
@@ -37,7 +26,7 @@ This is a card section for your GitHub README, showcasing the technologies used 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/devthrivein/devthrivein.github.io.git
 
 ## Overview
 
