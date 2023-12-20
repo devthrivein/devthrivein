@@ -22,7 +22,10 @@ This is a card section for your GitHub README, showcasing the technologies used 
 
    ```bash
    git clone https://github.com/devthrivein/devthrivein.github.io.git
-
+2. Install Tailwind Css
+   ```bash
+    npm install -D tailwindcss
+    npx tailwindcss init
 ## Overview
 
 This is an amazing web static project that showcases the power of Tailwind CSS. Tailwind CSS is a highly customizable, low-level CSS framework that gives you the building blocks to create your own designs.
