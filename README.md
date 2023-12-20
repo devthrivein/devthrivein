@@ -35,15 +35,8 @@ This is an amazing web static project that showcases the power of Tailwind CSS. 
 - Easy to customize and extend
 - Performance optimized and lightweight
 
-## Getting Started
+## Final Look 
 
-### Prerequisites
+http://thrivein.id/
 
-Make sure you have Node.js and npm installed on your machine.
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/devthrivein/devthrivein.github.io.git
