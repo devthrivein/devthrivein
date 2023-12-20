@@ -7,10 +7,6 @@
 
 <div align="center">
   <a href="#installation"><strong>Installation</strong></a>
-  ·
-  <a href="#usage"><strong>Usage</strong></a>
-  ·
-  <a href="#contributing"><strong>Contributing</strong></a>
 </div>
 
 <br>
